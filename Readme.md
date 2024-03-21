@@ -2,6 +2,8 @@
 
 ## Usage
 
+Works with D920S10/THTF TK620 firmware, should also work for other 1-way hi1620 systems (D920L11 maybe)
+
 ```
 Shell> .\tablesfix.efi
 ```
