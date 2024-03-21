@@ -48,4 +48,5 @@ build_efi()
 }
 
 build_efi tablesfix tablesfix.c
+build_efi readnor readnor.c
 
