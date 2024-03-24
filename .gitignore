@@ -3,3 +3,6 @@
 *.pdb
 
 *.aml
+
+play
+.vscode

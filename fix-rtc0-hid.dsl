@@ -1,5 +1,5 @@
 
-DefinitionBlock ("", "SSDT", 2, "DIXYES", "DIXYES00", 0)
+DefinitionBlock ("", "SSDT", 2, "DIXYES", "RTC0_HID", 0)
 {
     External (_SB.I2C4.RTC0, DeviceObj)
     

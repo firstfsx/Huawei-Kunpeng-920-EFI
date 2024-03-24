@@ -1,5 +1,5 @@
 
-DefinitionBlock ("", "SSDT", 2, "DIXYES", "DIXYES01", 0)
+DefinitionBlock ("", "SSDT", 2, "DIXYES", "REMDDRC ", 0)
 {
     External (_SB.DDR2, DeviceObj)
     External (_SB.DDR3, DeviceObj)

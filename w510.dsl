@@ -1,5 +1,5 @@
 
-DefinitionBlock ("", "SSDT", 2, "DIXYES", "DIXYES02", 0)
+DefinitionBlock ("", "SSDT", 2, "DIXYES", "W510    ", 0)
 {
     External (_SB.I2C0.COM1, DeviceObj)
     External (_SB.SPI0.COM2, DeviceObj)
