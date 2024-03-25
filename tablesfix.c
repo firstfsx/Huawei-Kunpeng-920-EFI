@@ -450,9 +450,6 @@ int main(int argc, char **argv) {
         } else {
             p_str = dmi_string(smbios_table, ((SMBIOS_TABLE_TYPE0 *) smbios_table)->Vendor);
             printf("BIOS Vendor: %s\n", p_str);
-            if (!p_str || strncmp(p_str, "Byosoft", 7)) {
-                yprintf("not Byosoft, this patch may not work\n");
-            }
             printf("BIOS Version: %s\n", dmi_string(smbios_table, ((SMBIOS_TABLE_TYPE0 *) smbios_table)->BiosVersion));
             printf("BIOS Release Date: %s\n", dmi_string(smbios_table, ((SMBIOS_TABLE_TYPE0 *) smbios_table)->BiosReleaseDate));
         }
